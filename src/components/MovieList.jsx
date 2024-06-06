@@ -4,11 +4,10 @@ import { selectMovieAction } from '../actions'
 
 const MovieList = () => {
     const {movies} = useSelector((state) => state )
-    const handleDetails = ()=>{
-        const dispatch = useDispatch()
-        const handleDetails = (movie) => {
-            dispatch(selectMovieAction(movie))
-        }
+    const dispatch = useDispatch()
+    const handleDetails = (movie)=>{
+        dispatch(selectMovieAction(movie))
+        
 
     }
   return (

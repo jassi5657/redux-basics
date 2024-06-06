@@ -51,7 +51,7 @@ const seletctedMovieReducer = (state = null,action) => {
 const reducer = combineReducers({
     count: counterReducer,
     movies: movieListReducer,
-    seletctedMovie: seletctedMovieReducer
+    selectedMovie: seletctedMovieReducer
 })
 
 export default reducer
