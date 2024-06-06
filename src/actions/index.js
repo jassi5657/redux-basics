@@ -27,9 +27,9 @@ export const incrementByValueAction =(val) => {
     }
 }
 
-// export const selectMovieAction =(movie) => {
-//     return {
-//         type:"SELECTEDMOVIE",
-//         payload:movie
-//     }
-// }
+export const selectMovieAction =(movie) => {
+    return {
+        type:"SELECTEDMOVIE",
+        payload:movie
+    }
+}
