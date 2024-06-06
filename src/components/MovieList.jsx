@@ -11,7 +11,7 @@ const MovieList = () => {
 
     }
   return (
-    <div className='list-Container'>
+    <div className='list-container'>
     {
         movies.map((movie)=>(
             <div key={movie.id} className="mov-col">
